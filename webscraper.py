@@ -17,9 +17,11 @@ for art in artist_table.find_all('tbody'):
     
     for row in rows:
         artist = row.find('td' , class_ = "column-artist")
-        print(artist)
+        return(artist)
         
 
+        
+# Code snippet for Spotify webscraper project
 
         
 
